@@ -1,0 +1,16 @@
+Make list of all samples to be included in analysis - should have malignant cells and both assays
+1.  Transfer full Seurat objects and fragment files to /data/tmp
+2. Make cell_annotations.tsv.gz and sample_list.txt
+3. Transfer everything to soroban to /mnt/beegfs/home/alyne/stagein/scenicplus_astro
+abacus_transfert.sh -s /data/tmp/scenicplus_astro -d /mnt/beegfs/home/alyne/stagein -m 2
+
+
+
+
+
+EdgeR analysis _paired _Tirosh cell - worked
+EdgeR analysis _paired _Tirosh score - didn't work, but should at least be able to run simple paired analyses
+
+EdgeR analysis  _Tirosh cell - didn't work, but have all output, problem with GSEA, not sure what
+
+EdgeR analysis  _Tirosh score - worked

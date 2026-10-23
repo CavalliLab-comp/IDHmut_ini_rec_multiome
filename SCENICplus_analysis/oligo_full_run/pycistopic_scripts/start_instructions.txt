@@ -1,0 +1,10 @@
+Make list of all samples to be included in analysis - should have malignant cells and both assays
+1.  Transfer full Seurat objects and fragment files to /data/tmp
+2. Make cell_annotations.tsv.gz and sample_list.txt
+3. Transfer everything to soroban to /mnt/beegfs/home/alyne/stagein/scenicplus_astro
+abacus_transfert.sh -s /data/tmp/scenicplus_astro -d /mnt/beegfs/home/alyne/stagein -m 2
+
+
+
+
+
